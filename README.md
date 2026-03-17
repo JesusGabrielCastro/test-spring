@@ -60,7 +60,7 @@ cd test-spring
 **2. Crear la base de datos**
 
 ```sql
-CREATE DATABASE crud_db;
+CREATE DATABASE spring;
 ```
 
 **3. Configurar la conexión**
@@ -70,7 +70,7 @@ Edita `src/main/resources/application.yml` con tus credenciales:
 ```yaml
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/crud_db
+    url: jdbc:postgresql://localhost:5432/spring
     username: tu_usuario
     password: tu_password
 ```
